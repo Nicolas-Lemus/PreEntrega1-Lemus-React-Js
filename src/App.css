@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+body{
+    background:rgba(213, 242, 196, 0.553);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    background: rgba(147, 210, 112, 0.63);
+    border-radius: 10px;
+    padding: .5rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+    width: 60px;
+    border-radius: 50%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-light{
+    background: rgba(185, 222, 164, 0.815) !important;
 }
-
-.App-link {
-  color: #61dafb;
+.dropdown-menu.show{
+    background: rgba(179, 235, 150, 0.809);
+    padding: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown-item{
+    width: auto;
+    padding-left: 0;
+}
+.enlaces{
+    border-radius: 5px;
+    margin-left: .4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.enlaces:hover{
+    color: rgb(8, 8, 8);
+    background: rgba(201, 247, 102, 0.632);
+    text-decoration: underline;
+}
+.enlacesDes:hover{
+    background: rgba(201, 247, 102, 0.632);
+}
+.nav-link{
+    color: rgb(59, 57, 57);
+    padding: 1rem;
+    font-size: 1.1rem;
 }
