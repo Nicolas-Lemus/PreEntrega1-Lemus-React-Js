@@ -3,8 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import CartWidget from './CartWidget';
-import logo from '../logo.webp';
+import CartWidget from '../CartWidget/CartWidget';
+import logo from '../../assets/logo.webp';
+import './NavBar.css';
 
 const NavBar = () => {
     return (

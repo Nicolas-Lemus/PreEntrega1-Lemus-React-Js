@@ -1,10 +1,4 @@
-body {
-    background: url(https://cutewallpaper.org/21/dark-green-wallpaper-hd/Dark-Green-Wallpaper-HD-WallpaperSafari-in-2019-Dark-.jpg);
-    background-size: 200% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-/* .container{
+.container{
     background: rgba(147, 210, 112, 0.63);
     border-radius: 10px;
     padding: .5rem;
@@ -57,31 +51,4 @@ body {
 .nav-link{
     padding: 1rem;
     font-size: 1.1rem;
-} */
-/* .tittle{
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content: center;
-    padding-top: 4rem;
-    font-size: 6rem;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:rgb(181, 207, 176);
-} */
-/* .cart{
-    align-items: center;
-    cursor: pointer;
-    margin: auto;
-    margin: 1rem;
 }
-.cart span{
-    margin:1rem;
-    font-size: 25px;
-}
-.icon{
-    font-size: 25px;
-}.icon:hover{
-    color: #5b5858;
-    scale: 1.1;
-    transition: 0.5s;
-} */
